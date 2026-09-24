@@ -9,17 +9,17 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="hero">
-  <nav><a class="brand" href="#inicio">WANDER <span>TRIPS</span></a><div class="navlinks"><a href="#itinerario">Itinerario</a><a href="#viaje">Mi viaje</a><a href="#pendientes">Pendientes</a></div></nav>
+<header class="hero" style="--hero:url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Las_Vegas_Strip_at_night.jpg/1280px-Las_Vegas_Strip_at_night.jpg')">
+  <nav><a class="brand logo-lockup" href="#inicio"><span class="plane">✈</span><span>Wander</span><small>TRIPS</small></a><div class="navlinks"><a href="#itinerario">Itinerario</a><a href="#viaje">Mi viaje</a><a href="#pendientes">Pendientes</a></div></nav>
   <div class="hero-content" id="inicio"><p class="eyebrow">WANDER TRIPS PRESENTA</p><h1>Las Vegas</h1><p class="dates">26 — 30 OCTUBRE · 2026</p><p class="travelers">Magaly · Andrés · Mayra · José</p><a class="primary" href="#itinerario">Ver mi itinerario ↓</a></div>
   <div class="hero-card"><span>5 DÍAS</span><span>4 NOCHES</span><span>4 VIAJEROS</span></div>
 </header>
-<main>
+<div class="mobile-summary"><span>Las Vegas</span><b>26–30 OCT</b><b>4 VIAJEROS</b></div><main>
 <section class="intro" id="viaje">
  <div><p class="eyebrow blue">TU VIAJE DE UN VISTAZO</p><h2>Todo listo para<br><em>vivir Las Vegas.</em></h2></div>
  <div class="trip-grid">
   <article class="mini"><b>✈️ VUELO DE IDA</b><strong>VB 600</strong><p>MTY 9:00 AM → LAS 11:05 AM<br>Lunes 26 de octubre</p></article>
-  <article class="mini"><b>🏨 HOSPEDAJE</b><strong>Paris Las Vegas</strong><p>26–30 de octubre · 4 noches<br>Check-in especial en Horseshoe*</p></article>
+  <article class="mini hotel-card"><b>🏨 HOSPEDAJE</b><strong>Paris Las Vegas</strong><p>26–30 de octubre · 4 noches<br>Una pareja realiza check-in en Horseshoe por su tipo de habitación.</p><span class="status">ESTANCIA · 4 NOCHES</span></article>
   <article class="mini"><b>✈️ REGRESO</b><strong>VB 603</strong><p>LAS 3:20 PM → MTY 7:17 PM<br>Viernes 30 de octubre</p></article>
  </div>
 </section>
@@ -43,6 +43,6 @@
 </section>
 <section class="pending" id="pendientes"><p class="eyebrow">ANTES DE VIAJAR</p><h2>Pendientes</h2><div class="checks"><label><input type="checkbox"> Confirmar horario de “O”</label><label><input type="checkbox"> Confirmar horarios/pick-up Grand Canyon</label><label><input type="checkbox"> Confirmar punto de encuentro del helicóptero</label><label><input type="checkbox"> Check-in de vuelos</label><label><input type="checkbox"> Documentos de viaje listos</label></div><p class="note">Los horarios de actividades pueden ajustarse al confirmar cada reservación.</p></section>
 </main>
-<footer><div class="brand big">WANDER <span>TRIPS</span></div><p>No solo viajes… <b>explora.</b></p><small>Guía privada de viaje · Las Vegas 2026</small></footer>
+<nav class="bottom-nav"><a href="#inicio"><span>⌂</span>Inicio</a><a href="#itinerario"><span>☷</span>Itinerario</a><a href="#viaje"><span>✈</span>Mi viaje</a><a href="#pendientes"><span>✓</span>Pendientes</a></nav><footer><div class="brand big">WANDER <span>TRIPS</span></div><p>No solo viajes… <b>explora.</b></p><small>Guía privada de viaje · Las Vegas 2026</small></footer>
 <script src="script.js"></script>
 </body></html>
