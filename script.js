@@ -1,0 +1,1 @@
+document.querySelectorAll('.checks input').forEach((box,i)=>{const key='wander-vegas-check-'+i;box.checked=localStorage.getItem(key)==='1';box.addEventListener('change',()=>localStorage.setItem(key,box.checked?'1':'0'))});
